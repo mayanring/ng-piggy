@@ -21,7 +21,7 @@ angular.module('ngPiggyApp')
           return word + "ay";
         }
 
-        return result[1] ? result[2] + result[1] + "ay" : word + "ay";
+        return result[1] ? result[2] + result[1] + "ay" : word + "way";
       };
 
       if ( !text ) return;
