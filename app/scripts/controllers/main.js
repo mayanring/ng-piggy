@@ -18,7 +18,7 @@ angular.module('ngPiggyApp')
         var result = word.match( pattern );
 
         if ( !result ){
-          return word + "ay";
+          return word + "way";
         }
 
         return result[1] ? result[2] + result[1] + "ay" : word + "way";
