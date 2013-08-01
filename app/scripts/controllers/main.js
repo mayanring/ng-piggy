@@ -26,7 +26,7 @@ angular.module('ngPiggyApp')
 
       if ( !text ) return;
 
-      var words = text.split(/\s+/);
+      var words = text.replace(/[^A-Za-z\s]/g, '').split(/\s+/);
       var latinized_words = [];
 
       for( var i = 0; i < words.length; i++ ){
