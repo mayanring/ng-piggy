@@ -1,8 +1,8 @@
 <div class="main">
   <h1 class="title">Little Piggy</h1>
 
-  <textarea name="phrase" id="phrase" ng-model="phrase" placeholder="Enter a phrase"></textarea>
+  <textarea name="phrase" id="phrase" ng-model="phrase" placeholder="A phrase to be translated"></textarea>
 
 
-  <h2 class="result">{{phrase}}</h2>
+  <h2 class="result">{{phrase | piglatinize}}</h2>
 </div>
