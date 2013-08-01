@@ -21,6 +21,10 @@ body {
     letter-spacing: -1px;
 }
 
+#phrase {
+    width: 400px;
+    height: 200px;
+}
 
 .main {
     margin: 0 auto;
@@ -35,4 +39,5 @@ body {
 .result {
     margin-top: 128px;
     font-size: 128px;
+    line-height: 1em;
 }
