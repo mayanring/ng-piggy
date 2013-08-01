@@ -20,3 +20,19 @@ body {
     line-height: 1;
     letter-spacing: -1px;
 }
+
+
+.main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    margin: 25% 0 64px 0;
+    color: #ccc;
+}
+
+.result {
+    margin-top: 128px;
+    font-size: 128px;
+}
